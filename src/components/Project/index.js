@@ -4,11 +4,11 @@ import {
   CardSubtitle, CardBody, Badge, CardLink
 } from 'reactstrap';
 import Sugarrush from '../../assets/images/Sugarrush.png'
+import Boostme from '../../assets/images/Boostme.png'
 import EZplan from'../../assets/images/EZplan.png'
 import Runbuddy from '../../assets/images/Runbuddy.png';
 import Ohsnap from '../../assets/images/Ohsnap.png';
 import Budgettracker from '../../assets/images/Budgettracker.png';
-import Codequiz from '../../assets/images/Codequiz.png';
 
 const Projectcard = (props) => {
   return (
@@ -16,16 +16,18 @@ const Projectcard = (props) => {
           <h1><Badge color='secondary'>Projects</Badge></h1>
      
     <CardColumns>
-      <Card>
-        <CardImg top width="100%" src={Sugarrush} alt="Sugar Rush screenshot" />
+    <Card>
+    <CardImg top width="100%" src={Boostme} alt="EZ Plan screenshot" />
         <CardBody>
-          <CardTitle tag="h5">Sugar Rush</CardTitle>
-          <CardSubtitle tag="h6" className="mb-2 text-muted">JavaScript, CSS</CardSubtitle>
-          <CardText>Welcome to the Sugar Rush website, where a user can view the menu on the main page, then visit the log in/sign up page to access an interactive menu. Once logged in, the user can view drinks filtered by soda type. </CardText>
-          <CardLink href="https://blooming-harbor-63482.herokuapp.com/">Sugar Rush</CardLink>
-          <CardLink href="https://github.com/jleatham78/sugar-rush">GitHub</CardLink>
+          <CardTitle tag="h5">BoostMe</CardTitle>
+          <CardSubtitle tag="h6" className="mb-2 text-muted">JavaScript, HTML</CardSubtitle>
+          <CardText>BoostMe allows you to make a donation securely online to a designated 4H member for their 4H livestock project. The app could easily be modified to any fundraising effort. </CardText>
+          <CardLink href="https://boostme-0421.herokuapp.com/">BoostMe</CardLink>
+          <CardLink href="https://github.com/quaylas/boostme">GitHub</CardLink>
         </CardBody>
       </Card>
+      
+      
       <Card>
         <CardImg top width="100%" src={Ohsnap} alt="Oh Snap screenshot" />
         <CardBody>
@@ -37,6 +39,17 @@ const Projectcard = (props) => {
         </CardBody>
       </Card>
       <Card>
+        <CardImg top width="100%" src={Sugarrush} alt="Sugar Rush screenshot" />
+        <CardBody>
+          <CardTitle tag="h5">Sugar Rush</CardTitle>
+          <CardSubtitle tag="h6" className="mb-2 text-muted">JavaScript, CSS</CardSubtitle>
+          <CardText>Welcome to the Sugar Rush website, where a user can view the menu on the main page, then visit the log in/sign up page to access an interactive menu. Once logged in, the user can view drinks filtered by soda type. </CardText>
+          <CardLink href="https://blooming-harbor-63482.herokuapp.com/">Sugar Rush</CardLink>
+          <CardLink href="https://github.com/jleatham78/sugar-rush">GitHub</CardLink>
+        </CardBody>
+      </Card>
+      
+      <Card>
       <CardImg top width="100%" src={EZplan} alt="EZ Plan screenshot" />
         <CardBody>
           <CardTitle tag="h5">EZ Plan</CardTitle>
@@ -46,16 +59,7 @@ const Projectcard = (props) => {
           <CardLink href="https://github.com/jleatham78/road-trip">GitHub</CardLink>
         </CardBody>
       </Card>
-      <Card>
-      <CardImg top width="100%" src={Codequiz} alt="EZ Plan screenshot" />
-        <CardBody>
-          <CardTitle tag="h5">Code Quiz</CardTitle>
-          <CardSubtitle tag="h6" className="mb-2 text-muted">JavaScript, HTML</CardSubtitle>
-          <CardText>Code Quiz offers users a fun way to test their knowledge!</CardText>
-          <CardLink href="https://jleatham78.github.io/Code-Quiz/">Code Quiz</CardLink>
-          <CardLink href="https://github.com/jleatham78/Code-Quiz">GitHub</CardLink>
-        </CardBody>
-      </Card>
+      
       <Card>
         <CardImg top width="100%" src={Budgettracker} alt="Budget Tracker screenshot" />
         <CardBody>

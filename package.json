@@ -1,7 +1,7 @@
 {
   "name": "professional-profile",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://jleatham78.github.io/professional-profile2/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
